@@ -10,7 +10,7 @@
   padding: 10px 25px;
 }
 
-.flex, navbar, .first-section, .second-section .advantage, .third-section .articles, footer {
+.flex, nav, .first-section, .second-section .advantage, .third-section .articles, footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@ body {
   width: 100%;
 }
 
-navbar {
+nav {
   background-color: white;
   position: fixed;
   top: 0;
@@ -43,7 +43,7 @@ navbar {
   z-index: 1000;
 }
 
-navbar a {
+nav a {
   color: #9698a6;
   margin: 0 8px;
   padding-bottom: 17px;
@@ -52,12 +52,12 @@ navbar a {
   transition: ease;
 }
 
-navbar a:hover {
+nav a:hover {
   border-bottom: 3px solid #31d35c;
   color: black;
 }
 
-navbar #menu-icon {
+nav #menu-icon {
   display: none;
 }
 
@@ -271,19 +271,19 @@ footer div .social-media a:hover path {
 }
 
 @media screen and (max-width: 768px) {
-  navbar {
+  nav {
     height: 50px;
   }
-  navbar a,
-  navbar .button,
-  navbar button,
-  navbar .first-section .left button,
-  .first-section .left navbar button,
-  navbar footer div button,
-  footer div navbar button {
+  nav a,
+  nav .button,
+  nav button,
+  nav .first-section .left button,
+  .first-section .left nav button,
+  nav footer div button,
+  footer div nav button {
     display: none;
   }
-  navbar #menu-icon {
+  nav #menu-icon {
     display: block;
     cursor: pointer;
   }
@@ -339,7 +339,7 @@ footer div .social-media a:hover path {
   p {
     font-size: 1em;
   }
-  .flex, navbar, .first-section, .second-section .advantage, .third-section .articles, footer {
+  .flex, nav, .first-section, .second-section .advantage, .third-section .articles, footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -351,7 +351,7 @@ footer div .social-media a:hover path {
   * {
     text-align: center;
   }
-  navbar {
+  nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
